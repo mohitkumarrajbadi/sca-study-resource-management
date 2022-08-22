@@ -1,0 +1,160 @@
+html,body {
+    height: 100% !important;
+    width: auto;
+    overflow: auto;
+    background: #9053c7 ;
+    background: -webkit-linear-gradient(-135deg,#c850c0,#4158d0);
+    background: -o-linear-gradient(-135deg,#c850c0,#4158d0);
+    background: -moz-linear-gradient(-135deg,#c850c0,#4158d0);
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px !important;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+.openbtn:hover {
+  background-color: #00bf78;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 10px;
+}
+
+
+.profileimg img{
+  height: 120px;
+  border: 3px solid white;
+  width: 120px;
+}
+
+.profileimg{
+  text-align: center;
+  padding: 50px;
+}
+
+.active{
+  background-color: #00bf78;
+  color: white !important;
+  border-radius: 50px;
+}
+
+
+.sbmt{
+  padding: 20px;
+  width: auto;
+  text-align: right;
+}
+
+.sbmt button{
+  font-size: 25px;  
+  border-radius: 50px;
+  background-color:black;
+  color: white;
+}
+
+.sbmt button:hover{
+  background-color: #00bf78;
+}
+
+.profiling img{
+  height: 200px;
+}
+
+.profiling .col-sm-9{
+  border: 5px solid white;
+  padding: 40px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.profiling .col-sm-6{
+  padding: 10px;
+}
+
+.imgheading{
+  height: 40px;
+  border: 2px solid white;
+  width: 40px;
+}
+
+#main h3{
+  text-align: right;
+  text-decoration: underline;
+  color: #212529;
+}
+
+.rcol{
+  padding: 5px 5px 10px 5px;
+}
+
+
+.stdrimg{
+  padding-top: 50px !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.col-sm-3{
+  text-align: center;
+  padding: 40px;
+}
+
+.custom-file-label{
+  overflow: hidden;
+}
+
+.col-sm-1 , .col-sm-2 , .col-sm-3{
+    overflow: hidden;
+}
